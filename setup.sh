@@ -1,7 +1,9 @@
 echo "Setting up tmux.conf"
-ln ~/configs/tmux.conf ~/.tmux.conf
+ln ./tmux.conf ~/.tmux.conf
 echo "Setting up vimrc"
-ln ~/configs/vimrc ~/.vimrc
+ln ./vimrc ~/.vimrc
+echo "Setting up kitty.conf"
+ln ./kitty.conf ~/.config/kitty/kitty.conf
 echo "Setting up VimCompletesMe"
 git clone git://github.com/ajh17/VimCompletesMe.git ~/.vim/pack/vendor/start/VimCompletesMe
 echo "Setting up vim-plug"
